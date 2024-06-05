@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+ body {
+      background-color: #f6f6f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    left {
+      /* left should have a width of 450px, margin-top of 70px and a display of inline-block */
+      width: 450px;
+      margin-top: 70px;
+      display: inline;
+    }
+    /* form should have the display as flex width as 300px, background-color as white, with a padding
+     of 20px and a border-radius of 5px. It should also have a box-shadow of 0 0 10px #ccc, flex-direction 
+     of column and a gap of 10px */
+     .right{
+        display: flex;
+        width: 300px;
+        background-color: #f6f6f6;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #ccc;
+        gap: 10px;
+        flex-direction: column;
+     }
